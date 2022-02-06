@@ -59,7 +59,22 @@ header {
 .logo-img {
   padding-top: 4rem;
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 1020px) {
+  .button-size {
+    font-size: 1rem;
+    text-align: center;
+    text-size-adjust: inherit;
+  }
+}
+@media screen and (max-width: 800px) {
+  .button-size {
+    font-size: 0.9rem;
+    text-align: center;
+    text-size-adjust: inherit;
+  }
+}
+@media screen and (max-width: 600px) {
   .button-size {
     width: 50%;
     height: 5rem;
