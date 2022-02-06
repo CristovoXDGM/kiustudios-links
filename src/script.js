@@ -6,7 +6,7 @@ function loadLinks() {
   var twitter = document.getElementById("twitter");
   var curso = document.getElementById("curso");
   var meusApps = document.getElementById("meusApps");
-  var telegram = document.getElementById("faleconosco");
+  var telegram = document.getElementById("telegram");
 
   curso.href = "https://go.hotmart.com/L50348126U";
   meusApps.href = "https://play.google.com/store/apps/developer?id=KiuStudios";

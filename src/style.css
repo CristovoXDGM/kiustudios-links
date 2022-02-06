@@ -19,7 +19,7 @@ main {
   justify-content: center;
   height: 100vh;
 
-  background: #3e6a1e;
+  background: #000000;
   overflow-y: scroll;
 }
 
@@ -37,22 +37,22 @@ header {
   height: 4rem;
   margin: 1rem 0rem;
   background-color: #49a805;
-  border: 0px none;
+  border: 6px solid #265802;
   color: #fff;
   text-decoration: none;
   border-radius: 1rem;
   font-size: 1.3rem;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgb(54, 54, 54);
+  text-shadow: 1px 1px 2px rgb(71, 71, 71);
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .button-size:hover {
-  background-color: #49a80500;
+  background-color: #1d1d1d00;
   color: #fff;
-  border: 2px solid #49a805;
+  border: 2px solid #5acf07;
   transition: 0.2s;
 }
 
@@ -63,11 +63,20 @@ header {
   .button-size {
     width: 50%;
     height: 5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    text-size-adjust: inherit;
     font-weight: bold;
   }
-
-  .logo-img {
+  img {
+    height: 2.4rem;
+  }
+  .kiustudios-name {
     display: none;
+  }
+  .logo-img {
+    height: 6rem;
+    padding-top: 0rem;
+    margin-bottom: 2rem;
   }
 }
